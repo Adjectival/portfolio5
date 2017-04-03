@@ -1,0 +1,10 @@
+.col:nth-child(1) {
+  background-color: goldenrod; }
+
+.col:nth-child(2) {
+  background-color: pink; }
+
+.col:nth-child(3) {
+  background-color: steelblue; }
+
+/*# sourceMappingURL=styles.css.map */
