@@ -2410,6 +2410,12 @@ a:hover {
   text-decoration: none;
   color: red; }
 
+body {
+  background-color: #ffd;
+  background-image: url("../img/graphy.png"); }
+  body p {
+    font-size: 16px; }
+
 .row, .flex-row {
   margin-bottom: 1vw;
   margin-top: 1vw; }
