@@ -1,10 +1,20 @@
+a:hover {
+  text-decoration: none;
+  color: red; }
+
+.row {
+  margin-bottom: 1vw; }
+
+.col {
+  padding: 2vw; }
+
 .col:nth-child(1) {
-  background-color: goldenrod; }
+  background-color: gold; }
 
 .col:nth-child(2) {
   background-color: pink; }
 
 .col:nth-child(3) {
-  background-color: steelblue; }
+  background-color: aquamarine; }
 
 /*# sourceMappingURL=styles.css.map */
