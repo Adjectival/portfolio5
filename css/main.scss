@@ -1,10 +1,15 @@
+@import "bourbon/bourbon";
+@import "saffron/saffron";
 a {
   &:hover {
     text-decoration: none;
     color: red;
   }
 }
-.row { margin-bottom: 1vw; }
+.row, .flex-row {
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
 .col { padding: 2vw; }
 
 .col:nth-child(1) {
@@ -15,4 +20,19 @@ a {
 }
 .col:nth-child(3) {
   background-color: aquamarine;
+}
+
+.interesting-link {
+  &:hover {
+    @include pulsate();
+  }
+  &:active {
+    @include bounce();
+  }
+}
+
+
+.fun-icon {
+  @extend .interesting-link;
+  opacity: 0.7;
 }
