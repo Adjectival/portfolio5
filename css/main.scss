@@ -17,15 +17,18 @@ body {
   margin-bottom: 1vw;
   margin-top: 1vw;
 }
-.col { padding: 2vw; }
+.card {
+  padding: 1vw;
+  margin: 1vw;
+}
 
-.col:nth-child(1) {
+.card:nth-child(1) {
   background-color: gold;
 }
-.col:nth-child(2) {
+.card:nth-child(2) {
   background-color: pink;
 }
-.col:nth-child(3) {
+.card:nth-child(3) {
   background-color: aquamarine;
 }
 
