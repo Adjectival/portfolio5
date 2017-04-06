@@ -2406,6 +2406,21 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
+.card-img-top {
+  width: 90%; }
+
+.card:nth-child(1) {
+  background-color: gold; }
+
+.card:nth-child(2) {
+  background-color: lightpink; }
+
+.card:nth-child(3) {
+  background-color: aquamarine; }
+
+.card:nth-child(4) {
+  background-color: chocolate; }
+
 a:hover {
   text-decoration: none;
   color: red; }
@@ -2419,19 +2434,6 @@ body {
 .row, .flex-row {
   margin-bottom: 1vw;
   margin-top: 1vw; }
-
-.card {
-  padding: 1vw;
-  margin: 1vw; }
-
-.card:nth-child(1) {
-  background-color: gold; }
-
-.card:nth-child(2) {
-  background-color: pink; }
-
-.card:nth-child(3) {
-  background-color: aquamarine; }
 
 .interesting-link:hover, .fun-icon:hover {
   -webkit-animation: pulsate 3 1.5s 0s none;

@@ -1,5 +1,6 @@
 @import "bourbon/bourbon";
 @import "saffron/saffron";
+@import "cards";
 a {
   &:hover {
     text-decoration: none;
@@ -16,20 +17,6 @@ body {
 .row, .flex-row {
   margin-bottom: 1vw;
   margin-top: 1vw;
-}
-.card {
-  padding: 1vw;
-  margin: 1vw;
-}
-
-.card:nth-child(1) {
-  background-color: gold;
-}
-.card:nth-child(2) {
-  background-color: pink;
-}
-.card:nth-child(3) {
-  background-color: aquamarine;
 }
 
 .interesting-link {

@@ -9,28 +9,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>
     Alexander Jacks, Junior-level Application Developer &amp; Designer
   </title>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container">
 
 <!-- hello -->
   <div class="row">
-    <div class="col-12">
+    <div class="col p-0">
       <h2>Hello! <i class="fa fa-magic" aria-hidden="true"></i></h2>
       <p>My name is Alexander Jacks and I love communication technology. I graduated from a programming bootcamp in Portland, Oregon in 2017 so that I can help design interesting user experiences. I say this sincerely, yet the code projects I personally most enjoy creating tend to revolve around lists and datasets, but I also can lose track of time when styling the layout and colors of an app. I'm interested in learning how to automate my workflow more; Sass (precompiled CSS) has made me into a believer.<span class="d-block">No matter what the focus of the work, I'm happiest in front of a keyboard.</span></p>
     </div>
   </div>
 <!-- projects -->
   <div class="d-flex row ">
-    <div class="col-3">
-      <h2 class="d-inline">Projects</h2>
+    <div class="col">
+      <h2>Projects</h2>
     </div>
-    <div class="col-9">
-      <p class="d-inline">Key:</p>
+    <div class="col-7">
       <span class="badge badge-primary">Language</span>
       <span class="badge badge-success">Superset</span>
       <span class="badge badge-warning">Libary</span>
@@ -40,11 +39,11 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-12">
-      <div class="card-deck">
+<!-- cards -->
+  <div class="d-flex row flex-row justify-content-around">
 
-        <div class="card interesting-link">
+        <div class="card col col-md-4 interesting-link">
+          <img class="card-img-top ml-3 mt-3" src="img/screen1.png" alt="Card image cap">
           <div class="card-block">
             <a href="https://adjectival.github.io/icondex/">
               <h1 class="card-title">Directory app prototyped in HTML5</h1>
@@ -60,7 +59,8 @@
           </div>
         </div>
 
-        <div class="card interesting-link">
+        <div class="card col col-md-4 interesting-link">
+          <img class="card-img-top ml-3 mt-3" src="img/screen2.png" alt="Card image cap">
           <div class="card-block">
             <a href="https://strangerthings-questionboard.pagefrontapp.com/">
               <h1 class="card-title">Message Board in EmberJS w/ Firebase</h1>
@@ -74,7 +74,8 @@
           </div>
         </div>
 
-        <div class="card interesting-link">
+        <!-- <div class="card col col-md-4 interesting-link">
+          <img class="card-img-top ml-3 mt-3" src="img/screen3.png" alt="Card image cap">
           <div class="card-block">
             <a href="https://github.com/Adjectival/emojical-Ng2">
               <h1 class="card-title">Meal Logger in Angular2</h1>
@@ -87,12 +88,25 @@
             <span class="badge badge-default">Angular2</span>
             <span class="badge badge-danger">strings</span>
           </div>
+        </div> -->
+
+        <div class="card col col-md-4 interesting-link">
+          <img class="card-img-top ml-3 mt-3" src="img/screen4.png" alt="Card image cap">
+          <div class="card-block">
+            <a href="https://github.com/Adjectival/sass_cards">
+              <h1 class="card-title">Photo cards</h1>
+            </a>
+            <p class="card-text">Some cards dealt w modern CSS3</p>
+            <span class="badge badge-primary">HTML5</span>
+            <span class="badge badge-primary">CSS3</span>
+            <span class="badge badge-success">Sass</span>
+            <span class="badge badge-warning">Bourbon</span>
+            <span class="badge badge-warning">Saffron</span>
+          </div>
         </div>
 
       </div>
 <!-- end cards -->
-    </div>
-  </div>
 
 <!-- links -->
     <div class="d-flex flex-row justify-content-around">
@@ -112,7 +126,7 @@
 
 <!-- about me -->
     <div class="row">
-      <div class="col-12">
+      <div class="col p-0">
         <h3>About Me</h3>
         <p>At <a href="https://www.epicodus.com/student-handbook/">Epicodus</a> we learned to prototype, to design, and then to build business web applications. They employ an unusual teaching model where students work on progressively tougher material in pairs, with help on demand from floating instructors. This was really fun, and a big change from previous attempts when I'd give up learning foundational programming concepts like functions and iteration because I was working by myself and couldn't wrap my head around them. At Epicodus, the active dialog with another learner made a huge difference for me. I've realized that I like using technology when it influences and affects other people, and also that I can learn it much more easily when working with others.</p>
         <p>For a few years in the military I worked to maintain and sometimes deploy data and voice networks and I even had some experience with legacy stuff that was highly classified. After a childhood spent messing around with Windows, this work seemed like a natural enough next step and I loved the variety of technologies I was trained to operate and troubleshoot.</p>

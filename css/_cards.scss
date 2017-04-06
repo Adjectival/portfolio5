@@ -1,0 +1,21 @@
+.card {
+  // padding: 1vw;
+  // margin: 1vw;
+}
+
+.card-img-top {
+  width: 90%;
+}
+
+.card:nth-child(1) {
+  background-color: gold;
+}
+.card:nth-child(2) {
+  background-color: lightpink;
+}
+.card:nth-child(3) {
+  background-color: aquamarine;
+}
+.card:nth-child(4) {
+  background-color: chocolate;
+}
