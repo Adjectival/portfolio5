@@ -2406,8 +2406,11 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
+.card {
+  margin-bottom: 1vw; }
+
 .card-img-top {
-  width: 90%; }
+  height: 30vh; }
 
 .card:nth-child(1) {
   background-color: gold; }
