@@ -1,20 +1,20 @@
-.card {
-  margin-bottom: 1vw;
+.app-card {
+  margin: 1vw;
 }
 
 .card-img-top {
-  height: 30vh;
+  width: 90%;
 }
 
-.card:nth-child(1) {
+.app-card:nth-child(1) {
   background-color: gold;
 }
-.card:nth-child(2) {
+.app-card:nth-child(2) {
   background-color: lightpink;
 }
-.card:nth-child(3) {
+.app-card:nth-child(3) {
   background-color: aquamarine;
 }
-.card:nth-child(4) {
+.app-card:nth-child(4) {
   background-color: chocolate;
 }

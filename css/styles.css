@@ -2406,22 +2406,22 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
-.card {
-  margin-bottom: 1vw; }
+.app-card {
+  margin: 1vw; }
 
 .card-img-top {
-  height: 30vh; }
+  width: 90%; }
 
-.card:nth-child(1) {
+.app-card:nth-child(1) {
   background-color: gold; }
 
-.card:nth-child(2) {
+.app-card:nth-child(2) {
   background-color: lightpink; }
 
-.card:nth-child(3) {
+.app-card:nth-child(3) {
   background-color: aquamarine; }
 
-.card:nth-child(4) {
+.app-card:nth-child(4) {
   background-color: chocolate; }
 
 a:hover {
@@ -2432,7 +2432,7 @@ body {
   background-color: #ffd;
   background-image: url("../img/graphy.png"); }
   body p {
-    font-size: 16px; }
+    font-size: 18px; }
 
 .row, .flex-row {
   margin-bottom: 1vw;
@@ -2447,5 +2447,9 @@ body {
 
 .fun-icon {
   opacity: 0.7; }
+
+*, [class*="col"], [class*="row"] {
+  border: 1px;
+  border-color: black; }
 
 /*# sourceMappingURL=styles.css.map */
