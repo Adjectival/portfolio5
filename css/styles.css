@@ -2407,22 +2407,11 @@
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 .app-card {
-  margin: 1vw; }
+  margin: 1vw;
+  background: linear-gradient(225deg, firebrick, bisque); }
 
 .card-img-top {
   width: 90%; }
-
-.app-card:nth-child(1) {
-  background-color: gold; }
-
-.app-card:nth-child(2) {
-  background-color: lightpink; }
-
-.app-card:nth-child(3) {
-  background-color: aquamarine; }
-
-.app-card:nth-child(4) {
-  background-color: chocolate; }
 
 a:hover {
   text-decoration: none;

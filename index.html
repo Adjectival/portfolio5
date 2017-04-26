@@ -19,27 +19,27 @@
 
 <!-- title bar -->
   <div class="row d-flex justify-content-around">
-    <i class="fa fa-magic" aria-hidden="true"></i>
-    <i class="fa fa-magic" aria-hidden="true"></i>
-    <span>Alexander Jacks, Developer</span>
-    <i class="fa fa-magic" aria-hidden="true"></i>
-    <i class="fa fa-magic" aria-hidden="true"></i>
+    <a href=#hello><i class="fa fa-magic" aria-hidden="true"></i>Hello</a>
+    <a href=#projects><i class="fa fa-magic" aria-hidden="true"></i>Projects</a>
+    <span><strong>Alexander Jacks, Web Developer</strong></span>
+    <a href=#contact><i class="fa fa-magic" aria-hidden="true"></i>Contact</a>
+    <a href=#about><i class="fa fa-magic" aria-hidden="true"></i>About</a>
   </div>
 
 
 <!-- hello -->
-  <div class="row">
+  <div class="row" id="hello">
     <div class="col">
-      <h2>Hello! <i class="fa fa-magic" aria-hidden="true"></i></h2>
-      <p>My name is Alexander Jacks and I love communication technology. I graduated from a programming bootcamp in Portland, Oregon in 2017 so that I can help design interesting user experiences. The code projects I personally most enjoy creating tend to revolve around lists and datasets, but I also can lose track of time when styling the layout and colors of an app. I'm interested in learning how to automate my workflow more; Sass (precompiled CSS) has made me into a believer.<span class="d-block">No matter what the focus of the work, I'm happiest in front of a keyboard.</span></p>
+      <h2>Hello!</h2>
+      <p>My name is Alexander Jacks and I love designing interesting user experiences. The web development projects I most enjoy creating tend to revolve around lists and datasets, but I also can lose track of time when styling the layout and colors of an app. I'm interested in learning how to automate my workflow more; Sass (precompiled CSS) has made me into a believer.<span class="d-block">No matter what the focus of the work, I'm happiest in front of a keyboard.</span></p>
     </div>
   </div>
 <!-- projects -->
-  <div class="d-flex row align-items-end">
-    <div class="col">
+  <div class="row align-items-end" id="projects">
+    <div class="col align-self-center">
       <h2>Projects</h2>
     </div>
-    <div class="col-7">
+    <div class="col-7 align-self-center">
       <span class="badge badge-primary">Language</span>
       <span class="badge badge-info">Superset</span>
       <span class="badge badge-warning">Library</span>
@@ -51,139 +51,161 @@
 
 <!-- cards -->
 
-  <div class="row">
-    <div class="app-card container">
-      <div class="row">
-        <div class="col">
-          <img class="card-img-top" src="img/screen1.png" alt="Card image cap">
-            <a href="https://adjectival.github.io/icondex/">
-              <h2 class=" block-inline">
-              <i class="fa fa-eye block-inline" aria-hidden="true"></i>
-              Demo</h2>
-            </a>
-            <a href="https://github.com/Adjectival/icondex/">
-              <h3 class=" block-inline">
-              <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
-              Code</h3>
-            </a>
-          </div>
-          <div class="col">
+<!-- one card -->
+<div class="row justify-content-center">
+  <div class="app-card container rounded">
+    <div class="row">
 
-            <h1>Directory app prototyped in HTML5</h1>
-            <span class="badge badge-primary">HTML5</span>
-            <span class="badge badge-primary">CSS3</span>
-            <span class="badge badge-info">Sass</span>
-            <span class="badge badge-warning">jQuery</span>
-            <span class="badge badge-warning">Bourbon</span>
-            <span class="badge badge-warning">Saffron</span>
-            <span class="badge badge-danger">HTML classes</span>
-            <h3>Semantic markup &amp; jQuery mock up a searchable database</h3>
-
-          </div>
-        </div>
+      <div class="d-flex flex-column col-6 align-items-center">
+        <img class="card-img-top" src="img/screen1.png" alt="Card image cap">
+        <a href="https://adjectival.github.io/icondex/">
+          <span class=" block-inline h2">
+            <i class="fa fa-eye block-inline" aria-hidden="true"></i>
+            Demo
+          </span>
+        </a>
+        <a href="https://github.com/Adjectival/icondex/">
+          <span class=" block-inline h4">
+            <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
+            Code
+          </span>
+        </a>
       </div>
+
+      <div class="d-flex flex-column col-6 align-items-stretch">
+        <h1 class="p-2">Directory app prototype</h1>
+        <span class=p-2>
+          <div class="badge block-inline badge-primary">HTML 5</div>
+          <div class="badge block-inline badge-primary">CSS3</div>
+          <div class="badge block-inline badge-info">Sass</div>
+          <div class="badge block-inline badge-warning">jQuery</div>
+          <div class="badge block-inline badge-warning">Bourbon</div>
+          <div class="badge block-inline badge-warning">Saffron</div>
+          <div class="badge block-inline badge-danger">HTML classes</div>
+        <h5 class="mt-2">Semantic markup &amp; jQuery mock up a searchable database</h5>
+      </span>
+      </div>
+
     </div>
-    <!-- one card -->
+  </div>
+</div>
 
+<!-- one card -->
+<div class="row justify-content-center">
+  <div class="app-card container rounded">
     <div class="row">
-      <div class="app-card container">
-        <div class="row">
-          <div class="col">
-            <img class="card-img-top" src="img/screen2.png" alt="Card image cap">
-              <a href="https://strangerthings-questionboard.pagefrontapp.com/">
-                <h2 class=" block-inline">
-                <i class="fa fa-eye block-inline" aria-hidden="true"></i>
-                Demo</h2>
-              </a>
-              <a href="https://github.com/Adjectival/answer-my-question-2">
-                <h3 class=" block-inline">
-                <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
-                Code</h3>
-              </a>
-            </div>
-            <div class="col">
 
-              <h1>Message Board in EmberJS</h1>
-              <span class="badge badge-primary">HTML5</span>
-              <span class="badge badge-primary">JavaScript</span>
-              <span class="badge badge-success">Firebase</span>
-              <span class="badge badge-default">EmberJS</span>
-              <span class="badge badge-danger">JSON</span>
-              <h3>Went overboard on the styling because I love this show and Ember is fun. Uses Firebase as cloud data service vs a database server.</h3>
-
-            </div>
-          </div>
-        </div>
+      <div class="d-flex flex-column col-6 align-items-center">
+        <img class="card-img-top" src="img/screen2.png" alt="Card image cap">
+        <a href="https://strangerthings-questionboard.pagefrontapp.com/">
+          <span class=" block-inline h2">
+            <i class="fa fa-eye block-inline" aria-hidden="true"></i>
+            Demo
+          </span>
+        </a>
+          <a href="https://github.com/Adjectival/answer-my-question-2">
+            <span class=" block-inline h4">
+            <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
+            Code
+          </span>
+        </a>
       </div>
-      <!-- one card -->
 
+      <div class="d-flex flex-column col-6 align-items-stretch">
+        <h1 class="p-2">Message Board in EmberJS</h1>
+        <span class=p-2>
+          <div class="badge block-inline badge-primary">HTML 5</div>
+          <div class="badge block-inline badge-primary">JavaScript</div>
+          <div class="badge block-inline badge-success">Firebase</div>
+          <div class="badge block-inline badge-default">EmberJS</div>
+          <div class="badge block-inline badge-danger">JSON</div>
+        <h5 class="mt-2">Went overboard on the styling because I love this show and Ember is fun. Uses Firebase as cloud data service vs a database server.</h5>
+      </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- one card -->
+<div class="row justify-content-center">
+  <div class="app-card container rounded">
     <div class="row">
-      <div class="app-card container">
-        <div class="row">
-          <div class="col">
-            <img class="card-img-top" src="img/screen?.png" alt="Card image cap">
-              <a href="#">
-                <h2 class=" block-inline">
-                <i class="fa fa-eye block-inline" aria-hidden="true"></i>
-                Demo</h2>
-              </a>
-              <a href="https://github.com/Adjectival/emojical-Ng2">
-                <h3 class=" block-inline">
-                <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
-                Code</h3>
-              </a>
-            </div>
-            <div class="col">
 
-              <h1>Emojical 2</h1>
-              <span class="badge badge-primary">HTML5</span>
-              <span class="badge badge-primary">JavaScript</span>
-              <span class="badge badge-info">TypeScript</span>
-              <span class="badge badge-success">AngularCLI</span>
-              <span class="badge badge-default">Angular2</span>
-              <span class="badge badge-danger">strings</span>
-              <h3>Angular2 app to log and edit food items. Instant page updating via two-way data binding, vs AJAX or similar.</h3>
-
-            </div>
-          </div>
-        </div>
+      <div class="d-flex flex-column col-6 align-items-center">
+        <img class="card-img-top" src="img/screen3.png" alt="Card image cap">
+        <span style="text-decoration: strikethrough;">
+            <i class="fa fa-eye block-inline" aria-hidden="true"></i>
+            Demo
+          </span>
+        <a href="https://github.com/Adjectival/emojical-Ng2">
+          <span class=" block-inline h4">
+          <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
+          Code
+          </span>
+        </a>
       </div>
-      <!-- one card -->
 
-      <div class="row">
-        <div class="app-card container">
-          <div class="row">
-            <div class="col">
-              <img class="card-img-top" src="img/screen?.png" alt="Card image cap">
-                <a href="https://adjectival.github.io/sass_cards/">
-                  <h2 class=" block-inline">
-                  <i class="fa fa-eye block-inline" aria-hidden="true"></i>
-                  Demo</h2>
-                </a>
-                <a href="https://github.com/Adjectival/sass_cards">
-                  <h3 class=" block-inline">
-                  <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
-                  Code</h3>
-                </a>
-              </div>
-              <div class="col">
+      <div class="d-flex flex-column col-6 align-items-stretch">
+        <h1 class="p-2">Emojical 2</h1>
+        <span class=p-2>
+          <div class="badge block-inline badge-primary">HTML 5</div>
+          <div class="badge block-inline badge-primary">JavaScript</div>
+          <div class="badge block-inline badge-info">TypeScript</div>
+          <div class="badge block-inline badge-default">Angular2</div>
+          <div class="badge block-inline badge-danger">strings</div>
+        <h5 class="mt-2">Angular2 app to log and edit food items. Instant page updating via two-way data binding, vs AJAX or similar.</h5>
+      </span>
+      </div>
 
-                <h1>Photo cards</h1>
-                <span class="badge badge-primary">HTML5</span>
-                <span class="badge badge-primary">CSS3</span>
-                <span class="badge badge-info">Sass</span>
-                <span class="badge badge-warning">Bourbon</span>
-                <span class="badge badge-warning">Saffron</span>
-                <h3>Some cards dealt iteratively with CSS3 interpolation of values</h3>
+    </div>
+  </div>
+</div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- one card -->
-    <!-- end cards -->
+<!-- one card -->
+<div class="row justify-content-center">
+  <div class="app-card container rounded">
+    <div class="row">
+
+      <div class="d-flex flex-column col-6 align-items-center">
+        <img class="card-img-top" src="img/screen4.png" alt="Card image cap">
+        <a href="https://adjectival.github.io/sass_cards/">
+          <span class=" block-inline h2">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            Demo
+          </span>
+        </a>
+        <a href="https://github.com/Adjectival/sass_cards">
+          <span class=" block-inline h4">
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+            Code
+          </span>
+        </a>
+      </div>
+
+      <div class="d-flex flex-column col-6 align-items-stretch">
+        <h1 class="p-2">Photo cards</h1>
+        <span class=p-2>
+          <div class="badge block-inline badge-primary">HTML 5</div>
+          <div class="badge block-inline badge-primary">CSS3</div>
+          <div class="badge block-inline badge-info">Sass</div>
+          <div class="badge block-inline badge-warning">Bourbon</div>
+          <div class="badge block-inline badge-warning">Saffron</div>
+          <div class="badge block-inline badge-danger">arrays</div>
+        <h5 class="mt-2">Some cards dealt iteratively with CSS3 interpolation of values</h5>
+      </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- end cards -->
 
 <!-- links -->
+    <div class="d-flex flex-row justify-content-around" id="contact">
+      <h3>Contact Links</h3>
+    </div>
     <div class="d-flex flex-row justify-content-around">
       <div>
         <a href="https://www.dropbox.com/s/j4gsme8421raftx/_resume_Alexander_Jacks.pdf?dl=0"><h1 class="fun-icon"><i class="fa fa-2x fa-file-pdf-o" aria-hidden="true"></i></h1><span class="d-flex justify-content-center">Résumé</a>
@@ -200,8 +222,8 @@
     </div>
 
 <!-- about me -->
-    <div class="row">
-      <div class="col p-0">
+    <div class="row" id="about">
+      <div class="col">
         <h3>About Me</h3>
         <p>After years of dabbling with building simple websites, I took the plunge into a career as a developer by enrolling in an intensive 6 month course in CSS/JS/Design at <a href="https://www.epicodus.com/student-handbook/">Epicodus</a>. In their Front End track I learned to prototype, to design, and then to build and style web applications. While interning at a small start-up recently, I used Bootstrap 4 to make their existing application platform more responsive and easier to use. I've realized that I like using technology when it influences and affects other people, and also that I can learn it much more easily when working with others.</p>
         <p>For a few years in the military I worked to maintain and sometimes deploy data and voice networks and I even had some experience with legacy stuff that was highly classified. After a childhood spent messing around with Windows, this work seemed like a natural enough next step and I loved the variety of technologies I was trained to operate and troubleshoot.</p>
