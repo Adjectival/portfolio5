@@ -17,14 +17,19 @@
 <body>
   <div class="container-fluid">
 
-<!-- title bar -->
-  <div class="row d-flex justify-content-around">
-    <a href=#hello><i class="fa fa-magic" aria-hidden="true"></i>Hello</a>
-    <a href=#projects><i class="fa fa-magic" aria-hidden="true"></i>Projects</a>
-    <span><strong>Alexander Jacks, Web Developer</strong></span>
-    <a href=#contact><i class="fa fa-magic" aria-hidden="true"></i>Contact</a>
-    <a href=#about><i class="fa fa-magic" aria-hidden="true"></i>About</a>
-  </div>
+<!-- nav bar -->
+<nav class="navbar sticky-top navbar-light bg-warning">
+  <a class="navbar-brand" href="#">
+    <div class="row justify-content-around align-items-center">
+      <h1>Alexander Jacks, Web Developer</h1>
+      <a href=#hello><i class="fa fa-code" aria-hidden="true"></i> Hello</a>
+      <a href=#projects><i class="fa fa-drivers-license-o" aria-hidden="true"></i> Projects</a>
+      <a href=#contact><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</a>
+      <a href=#about><i class="fa fa-quote-left" aria-hidden="true"></i> About</a>
+    </div>
+  </a>
+</nav>
+
 
 
 <!-- hello -->
@@ -37,15 +42,15 @@
 <!-- projects -->
   <div class="row align-items-end" id="projects">
     <div class="col align-self-center">
-      <h2>Projects</h2>
+      <h2><i class="fa fa-drivers-license-o" aria-hidden="true"></i> Projects</h2>
     </div>
     <div class="col-7 align-self-center">
       <span class="badge badge-primary">Language</span>
       <span class="badge badge-info">Superset</span>
       <span class="badge badge-warning">Library</span>
-      <span class="badge badge-success">Tool</span>
+      <span class="badge badge-danger">Tool</span>
       <span class="badge badge-default">Framework</span>
-      <span class="badge badge-danger">Data type</span>
+      <span class="badge badge-success">Data type</span>
     </div>
   </div>
 
@@ -76,12 +81,12 @@
         <h1 class="p-2">Directory app prototype</h1>
         <span class=p-2>
           <div class="badge block-inline badge-primary">HTML 5</div>
-          <div class="badge block-inline badge-primary">CSS3</div>
+          <div class="badge block-inline badge-primary">CSS 3</div>
           <div class="badge block-inline badge-info">Sass</div>
           <div class="badge block-inline badge-warning">jQuery</div>
           <div class="badge block-inline badge-warning">Bourbon</div>
           <div class="badge block-inline badge-warning">Saffron</div>
-          <div class="badge block-inline badge-danger">HTML classes</div>
+          <div class="badge block-inline badge-success">HTML classes</div>
         <h5 class="mt-2">Semantic markup &amp; jQuery mock up a searchable database</h5>
       </span>
       </div>
@@ -116,9 +121,9 @@
         <span class=p-2>
           <div class="badge block-inline badge-primary">HTML 5</div>
           <div class="badge block-inline badge-primary">JavaScript</div>
-          <div class="badge block-inline badge-success">Firebase</div>
           <div class="badge block-inline badge-default">EmberJS</div>
-          <div class="badge block-inline badge-danger">JSON</div>
+          <div class="badge block-inline badge-success">Firebase</div>
+          <div class="badge block-inline badge-success">JSON</div>
         <h5 class="mt-2">Went overboard on the styling because I love this show and Ember is fun. Uses Firebase as cloud data service vs a database server.</h5>
       </span>
       </div>
@@ -126,6 +131,47 @@
     </div>
   </div>
 </div>
+
+<!-- one card -->
+<div class="row justify-content-center">
+  <div class="app-card container rounded">
+    <div class="row">
+
+      <div class="d-flex flex-column col-6 align-items-center">
+        <img class="card-img-top" src="img/screen6.png" alt="Card image cap">
+        <img class="card-img-top" src="img/screen7.png" alt="Card image cap">
+
+        <a href="https://pwa-test-9eb4f.firebaseapp.com/">
+          <span class=" block-inline h2">
+            <i class="fa fa-eye block-inline" aria-hidden="true"></i>
+            Demo
+          </span>
+        </a>
+          <a href="https://github.com/Adjectival/react-pwa">
+            <span class=" block-inline h4">
+            <i class="fa fa-github-alt block-inline" aria-hidden="true"></i>
+            Code
+          </span>
+        </a>
+      </div>
+
+      <div class="d-flex flex-column col-6 align-items-stretch">
+        <h1 class="p-2">React PWA template</h1>
+        <span class=p-2>
+          <div class="badge block-inline badge-primary">HTML 5</div>
+          <div class="badge block-inline badge-primary">JavaScript</div>
+          <div class="badge block-inline badge-warning">React</div>
+          <div class="badge block-inline badge-danger">Firebase</div>
+        <h5 class="mt-2">Simple template for prototyping Progressive Web Apps.</h5>
+        <h5>Why use PWAs? ProTip: on your phone you can 'Add to Home Screen'
+        </h5>
+      </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 <!-- one card -->
 <div class="row justify-content-center">
@@ -153,7 +199,7 @@
           <div class="badge block-inline badge-primary">JavaScript</div>
           <div class="badge block-inline badge-info">TypeScript</div>
           <div class="badge block-inline badge-default">Angular2</div>
-          <div class="badge block-inline badge-danger">strings</div>
+          <div class="badge block-inline badge-success">strings</div>
         <h5 class="mt-2">Angular2 app to log and edit food items. Instant page updating via two-way data binding, vs AJAX or similar.</h5>
       </span>
       </div>
@@ -187,12 +233,12 @@
         <h1 class="p-2">Photo cards</h1>
         <span class=p-2>
           <div class="badge block-inline badge-primary">HTML 5</div>
-          <div class="badge block-inline badge-primary">CSS3</div>
+          <div class="badge block-inline badge-primary">CSS 3</div>
           <div class="badge block-inline badge-info">Sass</div>
           <div class="badge block-inline badge-warning">Bourbon</div>
           <div class="badge block-inline badge-warning">Saffron</div>
-          <div class="badge block-inline badge-danger">arrays</div>
-        <h5 class="mt-2">Some cards dealt iteratively with CSS3 interpolation of values</h5>
+          <div class="badge block-inline badge-success">arrays</div>
+        <h5 class="mt-2">Some cards dealt iteratively with CSS 3 interpolation of values</h5>
       </span>
       </div>
 
@@ -203,8 +249,8 @@
 <!-- end cards -->
 
 <!-- links -->
-    <div class="d-flex flex-row justify-content-around" id="contact">
-      <h3>Contact Links</h3>
+    <div class="d-flex flex-row justify-content-around mt-3" id="contact">
+      <h3><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Links</h3>
     </div>
     <div class="d-flex flex-row justify-content-around">
       <div>
@@ -222,9 +268,9 @@
     </div>
 
 <!-- about me -->
-    <div class="row" id="about">
+    <div class="row mt-5" id="about">
       <div class="col">
-        <h3>About Me</h3>
+        <h3 class="block-inline"><i class="fa fa-quote-left" aria-hidden="true"></i> About Me</h3>
         <p>After years of dabbling with building simple websites, I took the plunge into a career as a developer by enrolling in an intensive 6 month course in CSS/JS/Design at <a href="https://www.epicodus.com/student-handbook/">Epicodus</a>. In their Front End track I learned to prototype, to design, and then to build and style web applications. While interning at a small start-up recently, I used Bootstrap 4 to make their existing application platform more responsive and easier to use. I've realized that I like using technology when it influences and affects other people, and also that I can learn it much more easily when working with others.</p>
         <p>For a few years in the military I worked to maintain and sometimes deploy data and voice networks and I even had some experience with legacy stuff that was highly classified. After a childhood spent messing around with Windows, this work seemed like a natural enough next step and I loved the variety of technologies I was trained to operate and troubleshoot.</p>
         <p>I left to finish my bachelor's degree using the GIBill. I built simple websites for friends and dabbled in affiliate marketing and AdWords. Exploring majors lead me to Psychology. My lifelong love of technology and user interfaces steered me into code school in 2016 so I can work on crafting and improving UI/UX directly.</p>
