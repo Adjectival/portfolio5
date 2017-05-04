@@ -7,6 +7,7 @@ a {
     color: red;
   }
 }
+h2, h3, .h2, .h4, .btn-lg {font-family:'Roboto Slab';}
 body {
   background: linear-gradient(#ffd,#0af, transparent), url("../img/graphy.png");
   p {
@@ -40,8 +41,4 @@ body {
 .fun-icon {
   @extend .interesting-link;
   opacity: 0.7;
-}
-*, [class*="col"], [class*="row"] {
-  border: 1px;
-  border-color: black;
 }

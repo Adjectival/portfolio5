@@ -1,21 +1,30 @@
 .app-card {
   margin: 1vw;
-  background: linear-gradient(225deg, firebrick, bisque);
+  // background: linear-gradient(205deg, firebrick, bisque);
+  // background: linear-gradient(205deg, color, indigo);
 }
 
 .card-img-top {
   width: 90%;
 }
 
-// .app-card:nth-child(1) {
-//   background-color: gold;
-// }
-// .app-card:nth-child(2) {
-//   background-color: lightpink;
-// }
-// .app-card:nth-child(3) {
-//   background-color: aquamarine;
-// }
-// .app-card:nth-child(4) {
-//   background-color: chocolate;
-// }
+.app-card:nth-child(1) {
+  background: linear-gradient(205deg, gold, olive);
+
+}
+.app-card:nth-child(2) {
+  background: linear-gradient(205deg, lightpink, indigo);
+
+}
+.app-card:nth-child(3) {
+  background: linear-gradient(205deg, aquamarine, indigo);
+
+}
+.app-card:nth-child(4) {
+  background: linear-gradient(205deg, chocolate, indigo);
+
+}
+.app-card:nth-child(5) {
+  background: linear-gradient(205deg, palevioletred, indigo);
+
+}

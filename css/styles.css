@@ -2407,15 +2407,32 @@
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 .app-card {
-  margin: 1vw;
-  background: linear-gradient(225deg, firebrick, bisque); }
+  margin: 1vw; }
 
 .card-img-top {
   width: 90%; }
 
+.app-card:nth-child(1) {
+  background: linear-gradient(205deg, gold, olive); }
+
+.app-card:nth-child(2) {
+  background: linear-gradient(205deg, lightpink, indigo); }
+
+.app-card:nth-child(3) {
+  background: linear-gradient(205deg, aquamarine, indigo); }
+
+.app-card:nth-child(4) {
+  background: linear-gradient(205deg, chocolate, indigo); }
+
+.app-card:nth-child(5) {
+  background: linear-gradient(205deg, palevioletred, indigo); }
+
 a:hover {
   text-decoration: none;
   color: red; }
+
+h2, h3, .h2, .h4, .btn-lg {
+  font-family: 'Roboto Slab'; }
 
 body {
   background: linear-gradient(#ffd, #0af, transparent), url("../img/graphy.png"); }
@@ -2447,9 +2464,5 @@ body {
 
 .fun-icon {
   opacity: 0.7; }
-
-*, [class*="col"], [class*="row"] {
-  border: 1px;
-  border-color: black; }
 
 /*# sourceMappingURL=styles.css.map */
