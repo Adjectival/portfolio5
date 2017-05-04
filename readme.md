@@ -4,7 +4,8 @@
 
 ![screenshot](/img/screenshot.png)
 ### Description
-My portfolio site. Links to projects and work examples. Reflects my evolving skills as a designer and developer of web apps and websites.
+My portfolio site. Links to projects and work examples. Mobile first, with a somewhat obnoxious navbar.
+Reflects my evolving skills as a designer and developer of web apps and websites.
 
 ## Setup
 1. Visit [here](https://alexanderjacks.com/) to view the site.
@@ -13,12 +14,9 @@ My portfolio site. Links to projects and work examples. Reflects my evolving ski
 You may not like my color choices.
 
 ## Technologies Used
-- Development: HTML5 & CSS3 (Sass served with Saffron Bourbon)
+- Development: HTML 5 & CSS 3 (Sass served with Saffron Bourbon)
 - Design: Sketch
 - Testing: Atom, Chrome
-
-## Image Credit
-Alexander Jacks, cc 2008 Aomori Prefecture, Japan. :japan:
 
 ### Support and contact details
 _Contact alexd (dot) jacks (at) gmail (dot) com with questions regarding this software.
