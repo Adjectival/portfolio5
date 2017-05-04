@@ -2418,8 +2418,7 @@ a:hover {
   color: red; }
 
 body {
-  background-color: #ffd;
-  background-image: url("../img/graphy.png"); }
+  background: linear-gradient(#ffd, #0af, transparent), url("../img/graphy.png"); }
   body p {
     font-size: 18px; }
 
@@ -2433,6 +2432,18 @@ body {
 .interesting-link:active, .fun-icon:active {
   -webkit-animation: bounce 1 1s 0s none;
   animation: bounce 1 1s 0s none; }
+
+.teeter:hover, .btn-lg:hover {
+  outline: 1px solid transparent;
+  -webkit-animation: teeter 1s 0s none 1;
+  animation: teeter 1s 0s none 1; }
+.teeter:active, .btn-lg:active {
+  outline: 1px solid transparent;
+  -webkit-animation: teeter 1s 0s none 1;
+  animation: teeter 1s 0s none 1; }
+
+.btn-lg a:hover {
+  color: deepskyblue; }
 
 .fun-icon {
   opacity: 0.7; }

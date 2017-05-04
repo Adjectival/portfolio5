@@ -8,8 +8,7 @@ a {
   }
 }
 body {
-  background-color: #ffd;
-  background-image: url("../img/graphy.png");
+  background: linear-gradient(#ffd,#0af, transparent), url("../img/graphy.png");
   p {
     font-size: 18px;
   }
@@ -26,6 +25,16 @@ body {
   &:active {
     @include bounce();
   }
+}
+
+.teeter {
+  &:hover{@include teeter();}
+  &:active{@include teeter();}
+}
+
+.btn-lg {
+  @extend .teeter;
+  a{&:hover{color: deepskyblue;}}
 }
 
 .fun-icon {
