@@ -10,6 +10,9 @@ Reflects my evolving skills as a designer and developer of web apps and websites
 ## Setup
 1. Visit [here](https://alexanderjacks.com/) to view the site.
 
+### Dev.
+> $ npm i bourbon && npm i saffron && bourbon i && saffron i
+
 ## Known Issues
 You may not like my color choices.
 
