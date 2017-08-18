@@ -2419,13 +2419,13 @@
   background: linear-gradient(205deg, crimson, lightpink); }
 
 .app-card:nth-child(3) {
-  background: linear-gradient(205deg, chocolate, darkslategray); }
+  background: linear-gradient(205deg, silver, gray); }
 
 .app-card:nth-child(4) {
   background: linear-gradient(205deg, aquamarine, beige); }
 
 .app-card:nth-child(5) {
-  background: linear-gradient(205deg, palevioletred, maroon); }
+  background: linear-gradient(205deg, chocolate, darkslategray); }
 
 a:hover {
   text-decoration: none;
