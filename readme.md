@@ -7,14 +7,15 @@
 My portfolio site. Links to projects and work examples. Mobile first, with a somewhat obnoxious navbar.
 Reflects my evolving skills as a designer and developer of web apps and websites.
 
-## Setup
-1. Visit [here](https://alexanderjacks.com/) to view the site.
+## :eyes: View Project
+1. Visit [here](https://alexanderjacks.biz/) to view the site.
 
-### Dev.
-> $ npm i bourbon && npm i saffron && bourbon i && saffron i
+### :construction: Develop Project
+- ```npm i bourbon && npm i saffron && bourbon i && saffron i```
+- ```cd css/ && sass --watch main.scss:styles.css```
 
 ## Known Issues
-You may not like my color choices.
+If you're the smartest person in the room, you're in the wrong room.
 
 ## Technologies Used
 - Development: HTML 5 & CSS 3 (Sass served with Saffron Bourbon)

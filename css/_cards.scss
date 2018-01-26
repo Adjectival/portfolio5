@@ -9,20 +9,20 @@
 }
 
 .app-card:nth-child(1) {
-  background: linear-gradient(205deg, papayawhip, palevioletred);
-}
-.app-card:nth-child(6) {
-  background: linear-gradient(205deg, silver, gray);
+  background: linear-gradient(205deg, papayawhip, firebrick);
 }
 .app-card:nth-child(2) {
-  background: linear-gradient(205deg, crimson, lightpink);
-}
-.app-card:nth-child(3) {
-  background: linear-gradient(205deg, green, palegoldenrod);
+  background: linear-gradient(205deg, darkorange, lightpink);
 }
 .app-card:nth-child(4) {
-  background: linear-gradient(205deg, aquamarine, black);
+  background: linear-gradient(205deg, indianred, midnightblue);
+}
+.app-card:nth-child(6) {
+  background: linear-gradient(205deg, green, palegoldenrod);
 }
 .app-card:nth-child(5) {
-  background: linear-gradient(205deg, chocolate, darkslategray);
+    background: linear-gradient(205deg, aquamarine, mediumslateblue);
+}
+.app-card:nth-child(7) {
+    background: linear-gradient(205deg, chocolate, darkslategray);
 }
