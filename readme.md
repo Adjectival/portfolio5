@@ -8,7 +8,7 @@ My portfolio site. Links to projects and work examples. Mobile first, with a som
 Reflects my evolving skills as a designer and developer of web apps and websites.
 
 ## :eyes: View Project
-1. Visit [here](https://alexanderjacks.biz/) to view the site.
+1. Visit [here](https://adjectival.github.io/portfolio5/) to view the site.
 
 ### :construction: Develop Project
 - ```npm i bourbon && npm i saffron && bourbon i && saffron i```
