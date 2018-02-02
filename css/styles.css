@@ -2416,19 +2416,19 @@
   background: linear-gradient(205deg, papayawhip, firebrick); }
 
 .app-card:nth-child(2) {
-  background: linear-gradient(205deg, darkorange, lightpink); }
+  background: linear-gradient(205deg, darkorange, navy); }
 
-.app-card:nth-child(4) {
-  background: linear-gradient(205deg, indianred, midnightblue); }
+.app-card:nth-child(5) {
+  background: linear-gradient(205deg, indianred, peru); }
 
 .app-card:nth-child(6) {
   background: linear-gradient(205deg, green, palegoldenrod); }
 
-.app-card:nth-child(5) {
+.app-card:nth-child(4) {
   background: linear-gradient(205deg, aquamarine, mediumslateblue); }
 
-.app-card:nth-child(7) {
-  background: linear-gradient(205deg, chocolate, darkslategray); }
+.app-card:nth-child(3) {
+  background: linear-gradient(205deg, lightcyan, blueviolet); }
 
 a:hover {
   text-decoration: none;
